@@ -1,0 +1,315 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+        sans-serif;
+
+    margin: 0;
+}
+
+input[type="button"] {
+    height: 30px;
+    background: #2a7ae4;
+    border: none;
+    margin: 5px 0;
+    color: rgba(255, 255, 255, 1);
+    transition-property: background, color;
+    transition: 500ms ease-in-out 0s;
+    border: 1px solid #739fda96;
+    font-size: medium;
+    text-transform: uppercase;
+}
+input[type="button"]:hover {
+    background: #739fda96;
+    color: #2a7ae4;
+    border: 1px solid #2a7be496;
+}
+
+input,
+textarea {
+    outline: none;
+    transition: border 500ms ease-in-out 0s;
+}
+
+html {
+    font-size: medium;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.max-w-fix {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1136px;
+}
+
+header,
+section,
+footer {
+    padding: 0;
+}
+
+section {
+    padding: 30px 0;
+}
+
+#sobre,
+#formacao-academica,
+#contato {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 208px;
+    /* height: 368px; */
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+.header .logo {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.header .logo-texto {
+    margin: 0 5px;
+}
+
+.header .menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.header .menu li {
+    margin: 0 5px;
+    list-style: none;
+}
+
+.header .menu li:last-child {
+    font-weight: bold;
+    padding: 0 0 0 15px;
+    margin: 0;
+}
+
+.sobreMim {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.hero-info {
+    /* word-break: break-word;
+    width: 100%; */
+    width: 69%;
+}
+
+.hero-foto-container {
+    width: 30%;
+}
+
+.hero-foto-container img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.links-sobre {
+    word-wrap: break-word;
+    list-style-type: none;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+}
+
+.links-sobre div {
+    display: flex;
+    align-items: baseline;
+    gap: 3%;
+    font-weight: bold;
+}
+
+/* .sobreMim .hero-foto {
+    width: 250px;
+    height: 250px;
+    order: 1;
+    flex-grow: 0;
+    background-image: url("../assets/Thiago.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+} */
+
+.skills,
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills img,
+.hobbies img {
+    width: 30px;
+    height: auto;
+}
+
+.botoes-acao {
+    margin: 0 0 15px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.formacao-academica-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+.formacao-academica-cards {
+    display: flex;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.formacao-academica-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+.formacao-academica-img {
+    width: auto;
+    height: 286px;
+    padding: 16px;
+    align-items: center;
+    display: flex;
+    background-color: #fff;
+    justify-content: center;
+}
+
+.formacao-academica-desc {
+    display: flex;
+    flex-direction: column;
+}
+
+.formacao-academica-desc h4 {
+    margin: 0;
+}
+
+.formacao-academica-desc div {
+    font-size: small;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decodificador,
+.forca {
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+
+.decodificador img,
+.forca img {
+    width: 100%;
+}
+
+.decoder-image,
+.forca-image {
+    width: 100%;
+    max-width: 600px;
+}
+
+.decodificador {
+    flex-direction: row-reverse;
+}
+
+.contato .contatoDivs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato .imagemAleatoriaContato {
+    width: 300px;
+}
+
+.contato-container {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+}
+
+.imagem-contato img {
+    width: 100%;
+}
+
+.contato-form {
+    width: 100%;
+    max-width: 656px;
+}
+
+.contato-form input[type="text"],
+input[type="email"] {
+    height: 56px;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.contato-form textarea {
+    height: 150px;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.contato-form input:focus,
+.contato-form textarea:focus {
+    border-bottom: 2px solid #2a7ae4;
+}
+
+.formulario-div label {
+    font-size: small;
+    margin: 5px;
+}
+
+.formulario-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-div:nth-child(3) {
+    margin: 15px 0;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}

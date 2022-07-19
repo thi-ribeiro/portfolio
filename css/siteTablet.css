@@ -1,0 +1,48 @@
+@media only screen and (max-width: 1024px) {
+    body {
+        /* font-size: small; */
+    }
+
+    html {
+        font-size: small;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    .header .menu li:not(:last-child) {
+        display: none;
+    }
+
+    .sobreMim {
+        /* width: 768px; */
+    }
+
+    .formacao-academica-cards {
+        flex-wrap: wrap;
+    }
+
+    .skills,
+    .hobbies {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 120px;
+        height: 120px;
+    }
+
+    .sobreMim .hero-foto {
+        width: 146px;
+        height: 146px;
+    }
+
+    .imagem-contato {
+        display: none;
+    }
+
+    .decodificador,
+    .forca {
+        flex-direction: column;
+    }
+}
