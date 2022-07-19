@@ -7,6 +7,16 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    transition: color 500ms ease-in-out 0s;
+    color: rgba(0, 0, 0, 1);
+}
+
+a:hover {
+    color: #739fda96;
+}
+
 input[type="button"] {
     height: 30px;
     background: #2a7ae4;
@@ -19,6 +29,7 @@ input[type="button"] {
     font-size: medium;
     text-transform: uppercase;
 }
+
 input[type="button"]:hover {
     background: #739fda96;
     color: #2a7ae4;
@@ -84,6 +95,7 @@ section {
     display: flex;
     justify-content: space-between;
     padding: 0;
+    font-weight: bold;
 }
 
 .header .menu li {
