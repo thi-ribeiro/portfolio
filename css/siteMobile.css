@@ -1,8 +1,4 @@
 @media only screen and (max-width: 360px) {
-    body {
-        /* font-size: small; */
-    }
-
     html {
         font-size: smaller;
         box-sizing: border-box;
@@ -16,6 +12,7 @@
     .sobreMim {
         /* width: 100%; */
         flex-direction: column-reverse;
+        text-align: justify;
     }
 
     .hero-info {
@@ -30,8 +27,6 @@
     .links-sobre {
         font-size: 11px;
     }
-
-  
 
     .links-sobre img {
         width: 10px;

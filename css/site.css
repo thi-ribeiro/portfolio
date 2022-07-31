@@ -26,7 +26,6 @@ input[type="button"] {
     transition-property: background, color;
     transition: 500ms ease-in-out 0s;
     border: 1px solid #739fda96;
-    font-size: medium;
     text-transform: uppercase;
 }
 
@@ -114,6 +113,14 @@ section {
     align-items: center;
     padding: 30px;
     gap: 30px;
+}
+
+.sobre-texto {
+}
+
+.sobre {
+    display: flex;
+    justify-content: center;
 }
 
 .hero-info {
@@ -288,12 +295,14 @@ section {
 
 .contato-form input[type="text"],
 input[type="email"] {
-    height: 56px;
+    padding: 0 10px;
+    height: 40px;
     border: none;
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 .contato-form textarea {
+    padding: 0 10px;
     height: 150px;
     resize: none;
     border: none;
