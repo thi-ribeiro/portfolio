@@ -25,14 +25,14 @@ input[type="button"] {
     color: rgba(255, 255, 255, 1);
     transition-property: background, color;
     transition: 500ms ease-in-out 0s;
-    border: 1px solid #739fda96;
+    border: 2px solid #739fda96;
     text-transform: uppercase;
 }
 
 input[type="button"]:hover {
     background: #739fda96;
     color: #2a7ae4;
-    border: 1px solid #2a7be496;
+    border: 2px solid #2a7be496;
 }
 
 input,
@@ -214,7 +214,8 @@ section {
 .formacao-academica-card {
     display: flex;
     flex-direction: column;
-    min-width: 100%;
+    min-width: 368px;
+    min-height: 286px;
 }
 
 .formacao-academica-img {
@@ -230,6 +231,7 @@ section {
 .formacao-academica-desc {
     display: flex;
     flex-direction: column;
+    margin: 5px 0 0 0;
 }
 
 .formacao-academica-desc h4 {
