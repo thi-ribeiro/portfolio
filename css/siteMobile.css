@@ -19,6 +19,10 @@
         width: 100%;
     }
 
+    .hero-foto-container {
+        width: 40%;
+    }
+
     .hero-foto {
         width: 146px;
         height: 146px;

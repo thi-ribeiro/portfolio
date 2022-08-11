@@ -3,8 +3,11 @@ body {
     flex-direction: column;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
         sans-serif;
-
     margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 a {
@@ -126,11 +129,11 @@ section {
 .hero-info {
     /* word-break: break-word;
     width: 100%; */
-    width: 69%;
+    width: 79%;
 }
 
 .hero-foto-container {
-    width: 30%;
+    width: 20%;
 }
 
 .hero-foto-container img {
@@ -214,7 +217,8 @@ section {
 .formacao-academica-card {
     display: flex;
     flex-direction: column;
-    min-width: 368px;
+    width: 368px;
+
     min-height: 286px;
 }
 
